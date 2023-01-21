@@ -5,4 +5,5 @@ let searchPopup = document.getElementById("search-popup")
 search.addEventListener("click",()=>{
     button.classList.toggle("hiddenbtn");
     searchPopup.classList.toggle("hiddenbtn");
+    search.classList.toggle("searchbackgroundcolor")
 })

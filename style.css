@@ -13,6 +13,7 @@ body{
 .top-navbar-left{
     display: flex;
     box-sizing: border-box;
+    flex: 33%;
 }
 .icon-search{
     padding: 8px 11px;
@@ -26,7 +27,12 @@ body{
     cursor: pointer;
 }
 .icon-search:hover,.icon-menu:hover{
-    background-color: rgb(233, 228, 228);
+    background-color:rgb(241, 238, 238);
+    transition: background-color 1s;
+    border-radius: 3px;
+}
+.searchbackgroundcolor{
+    background-color:rgb(241, 238, 238);
     transition: background-color 1s;
     border-radius: 3px;
 }
@@ -56,3 +62,57 @@ input[type=search]::placeholder{
 .hiddenbtn{
     visibility: hidden;
 }
+.top-navbar-middle{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex: 33%;
+    justify-content: center;
+}
+.top-navbar-middle a{
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+    font-size: 11px;
+    font-family:monospace;
+}
+.top-navbar-middle a:hover{
+    background-color: rgb(241, 238, 238);
+    border-radius: 4px;
+    transition: background-color 0.8s;
+}
+.top-navbar-right{
+    display: flex;
+    flex: 33%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.subscription{
+    background-color: rgb(73, 113, 143);
+    color: white;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border:none;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+    letter-spacing: 1.4px;
+}
+.subscription:hover{
+    background-color: rgb(45, 105, 150);
+    transition: 1s;
+
+}
+.account{
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.downarrow{
+    width: 10px;
+    margin-left: 5px;
+    fill: grey;
+}
+
+/* top navbar ends */
