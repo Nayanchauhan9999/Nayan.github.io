@@ -176,13 +176,15 @@ input[type=search]::placeholder{
 
 .toggle-left-menubar{
     position:fixed;
-    left: -230px;
+    /* left: -230px; */
+    left: 0;
     transition: left 1s;
     top: 0;
     background-color: white;
     height: 100%;
     padding: 5px 20px;
-    width: 18%;
+    /* width: 18%; */
+    width: 100%;
     box-sizing: border-box;
     border-right:1px solid rgb(211, 204, 204);
     box-shadow: 5px 0px 4px rgb(234, 231, 231);
@@ -214,6 +216,7 @@ input[type=search]::placeholder{
 @media only screen and (max-width:400px){
     .toggle-left-menubar{
         width: 50%;
+        
     }
 
 }
