@@ -213,10 +213,10 @@ input[type=search]::placeholder{
     border-radius: 5px;
 }
 
-@media only screen and (max-width:400px){
+/* @media only screen and (max-width:400px){
     .toggle-left-menubar{
         width: 50%;
         
     }
 
-}
+} */
